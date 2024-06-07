@@ -19,13 +19,13 @@ cd tasks-project
 cp .env.example .env
 ```
 4. Set up your database credentials in the .env file.
-5. Build the Docker containers:
-```
-./vendor/bin/sail up -d
-```
-6. Install the composer dependencies:
+5. Install the composer dependencies:
 ```
  composer install
+```
+6. Build the Docker containers:
+```
+./vendor/bin/sail up -d
 ```
 
 7. Generate the application key:
